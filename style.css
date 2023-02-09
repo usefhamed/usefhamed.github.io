@@ -1,0 +1,269 @@
+@media only screen and (max-width: 600px) {
+    .left-sidebar {
+      flex: 1 0 33%;
+      /* background-color: yellow; */
+    }
+  
+    .inner-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 80%;
+      /* background-color: red; */
+    }
+  
+    .main-content-container {
+      flex: 1 0 67%;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 87vh;
+    }
+  
+    .inner-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 80%;
+    }
+
+    .menu-bar a {
+        /* float: center; */
+        color: grey;
+        text-align: center;
+        padding: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    
+  }
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    height: 1px;
+    background: purple;
+}
+img{
+    border-radius: 50%;
+}
+
+ul.menu-bar{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: grey;
+}
+
+.menu-bar a {
+    float: center;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu-bar a:hover {
+    color: purple;
+  }
+
+.menu-bar a.active {
+color: purple;
+}
+
+li.menu-element{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a.reg-link{
+    color: purple;
+    text-decoration: none;
+}
+
+.main-content-container{
+    /* flex: 1 0 60%;
+    flex-shrink: 1;
+    background-color: red; */
+    flex: 1 0 67%;
+    text-align: left;
+    /* margin-left: 20px; */
+    font-size: 15px;
+}
+
+.left-sidebar{
+    /* background: red;
+    flex: 1 0 40%;
+    background-color: green; */
+    /* background: yellow; */
+    flex: 1 0 33%;
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.container{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    min-height: 87vh;
+}
+
+.inner-container{
+    display: flex;
+    flex: 1 0 80%;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-edu{
+    display: flex;
+    justify-content: center;
+}
+
+div#topline{
+    margin-top: 4px;
+    background-color: purple;
+    height: 2px;
+
+}
+
+.table-align{
+    display: flex;
+    justify-content: left;
+    background-color: blue;
+}
+
+.table-align-elem{
+    display: flex;
+    /* flex: 0 1 100%; */
+    /* text-align: right; */
+    /* background-color: orange; */
+    /* flex-direction: row; */
+}
+
+
+.rickcaption{
+    /* display: flex; */
+    justify-content: center;
+    /* background-color: cadetblue; */
+}
+
+.rickcaption1{
+    /* display: flex; */
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.table-align-cell-left{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.table-align-cell-right{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(216, 213, 213); */
+    flex: 0 1 33%;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 3px;
+}
+
+nav{
+    /* background-color: rgb(216, 213, 213); */
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.creds{
+    color:gray;
+    margin-left: 5%;
+
+}
+
+.about{
+    padding: 30px;
+
+}
+
+.progressbars{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.skills{
+    padding: 30px;
+}
+
+progress{
+    height:25px;
+    width: 90%;
+}
+
+.education{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.accreds{
+    display: flex;
+    justify-content: space-between;
+}
+
+.schools{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.experience{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.interests{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.interests-list{
+    list-style-type: '-  ';
+    padding-left: 15px;
+}
